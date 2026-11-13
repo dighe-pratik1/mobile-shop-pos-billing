@@ -1,0 +1,30 @@
+
+name: mobile_shop_pos
+description: "Professional Mobile Shop POS and Inventory Management System"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  supabase_flutter: ^2.5.0
+  shared_preferences: ^2.5.3
+  intl: ^0.20.3
+  barcode_widget: ^2.0.4
+  mobile_scanner: ^7.4.2
+  shared_preferences_android: ">=2.4.28 <2.5.0"
+  pdf: ^3.13.1
+  printing: ^5.15.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
